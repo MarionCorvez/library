@@ -1,0 +1,19 @@
+{
+  "name": "Library API",
+  "version": "1.0.0",
+  "description": "API for Library project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [node, api, REST],
+  "author": "Marion Corvez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
